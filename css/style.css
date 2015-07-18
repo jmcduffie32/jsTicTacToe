@@ -1,0 +1,91 @@
+body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#menu-cover {
+  background-color: lightblue;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 1000;
+  opacity: 0.9;
+}
+
+#menu {
+  height: 150px;
+  width: 400px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
+
+#board {
+  position: relative;
+  margin: 100px auto;
+}
+
+#drawing-board {
+  position: absolute;
+}
+
+#board, #drawing-board {
+  width: 310px;
+  height: 310px;
+}
+
+.square {
+  position: absolute;
+  background-color: transparent;
+  height: 100px;
+  width: 100px;
+}
+
+.ecks {
+  background: url("https:/dl.dropboxusercontent.com/s/i579euba4wexums/ecks.png?dl=0") center center no-repeat;
+}
+
+.oh {
+  background: url("https://dl.dropboxusercontent.com/s/c7us03xf00ped03/oh.png?dl=0") center center no-repeat;
+}
+
+#box2 {
+  left: 105px;
+}
+
+#box3 {
+  left: 210px;
+}
+
+#box4 {
+  top: 105px;
+}
+
+#box5 {
+  left: 105px;
+  top: 105px;
+}
+
+#box6 {
+  left: 210px;
+  top: 105px;
+}
+
+#box7 {
+  top: 210px;
+}
+
+#box8 {
+  left: 105px;
+  top: 210px;
+}
+
+#box9 {
+  left: 210px;
+  top: 210px;
+}
